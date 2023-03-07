@@ -1,0 +1,192 @@
+/* ==============COLORI=================== */
+:root {
+  /*colori logo */
+  --colore-logo: #4d5ae5;
+  --coloro-logo-h: #2e2f42;
+  --coloro-logo-f: #f4f4fd;
+
+  /* colori header */
+  --colore-menu-link: #2e2f42;
+  --colore-menu-background: #ffffff;
+  --colore-menu-hfa: #404bbf;
+
+  /* colori footer */
+  --colore-footer-text: #e7e9fc;
+  --colore-footer-background: #2e2f42;
+
+  /* colore title */
+  --colore-title: #2e2f42;
+
+  /* colore button */
+  --color-button-primery: #4d5ae5;
+  --color-button-secondary: #404bbf;
+  --color-button-nav: #f4f4fd;
+  --color-buton-white: #ffffff;
+  --color-button-border: #e7e9fc;
+
+  /* colore background */
+  --colore-background-body: #ffffff;
+  --colore-background-section-grey: #f4f4fd;
+  --colore-background-section-navy-blu: #2e2f42;
+
+  /* colore text */
+  --color-text: #434455;
+  --color-text-white: #ffffff;
+  /* =============/COLORI==================== */
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  background: var(--colore-background-body);
+  color: var(--color-text);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.text {
+  color: var(--color-text);
+}
+/* ==============TITLE==================== */
+.hero .title-h-one {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-text-white);
+}
+
+.title-h-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.title-h-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.title-h-two,
+.title-h-three {
+  color: var(--colore-title);
+}
+
+/* invisible title portfolio main */
+/* .Invisible-title {
+  color: var(--colore-background-body);
+} */
+/*================ BUTTON ==================*/
+.hero .button,
+.nav .button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+  background: var(--color-button-primery);
+  color: var(--color-buton-white);
+  cursor: pointer;
+}
+
+.hero .button:hover,
+.hero .button:focus {
+  background: var(--color-button-secondary);
+}
+
+/* section portfolio nav */
+.nav .button {
+  color: var(--color-button-primery);
+  background: var(--color-button-nav);
+}
+.nav .button:hover,
+.nav .button:focus {
+  background: var(--color-button-primery);
+  color: var(--color-buton-white);
+}
+
+/* ===============HEADER=================== */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--colore-logo);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.accent-header {
+  color: var(--coloro-logo-h);
+}
+
+.menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--colore-menu-link);
+}
+
+.address .link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  cursor: pointer;
+}
+.address {
+  font-style: normal;
+}
+.menu:hover,
+.menu:focus,
+.menu:active,
+.mail .link:hover,
+.mail .link:focus,
+.mail .link:active,
+.tel .link:hover,
+.tel .link:focus,
+.tel .link:active {
+  color: var(--colore-menu-hfa);
+}
+
+/*================= SECTION ================== */
+
+/* ===========section Hero============== */
+.hero {
+  background: var(--colore-background-section-navy-blu);
+}
+/* ============section ABOUT================= */
+/* ============section WORK ==================*/
+/* ============section Our Team ==============*/
+.our-team {
+  background: var(--colore-background-section-grey);
+}
+
+/* =================== FOOTER ================ */
+.accent-footer {
+  color: var(--coloro-logo-f);
+}
+.footer {
+  background: var(--colore-footer-background);
+  color: var(--colore-footer-text);
+}
+/* ======section Portfolio nav================= */
