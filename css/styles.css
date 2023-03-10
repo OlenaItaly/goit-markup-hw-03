@@ -34,6 +34,25 @@
   --color-text-white: #ffffff;
   /* =============/COLORI==================== */
 }
+/* ============скидання стилів (параметрів)============ */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
 
 .list {
   list-style: none;
@@ -93,11 +112,12 @@ body {
 /*================ BUTTON ==================*/
 .hero .button,
 .nav .button {
+  display: block;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
+  border-radius: 4px;
   letter-spacing: 0.04em;
   background: var(--color-button-primery);
   color: var(--color-buton-white);
@@ -119,8 +139,28 @@ body {
   background: var(--color-button-primery);
   color: var(--color-buton-white);
 }
-
+/* ===============CONTEINER================ */
+.conteiner {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* ===============HEADER=================== */
+.page-header > .conteiner {
+  display: flex;
+  align-items: center;
+}
+.page-header > .conteiner {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -135,7 +175,14 @@ body {
   color: var(--coloro-logo-h);
 }
 
+.menu-item:not(:last-child) {
+  gap: 40px;
+}
+
 .menu {
+  display: flex;
+  align-items: center;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -143,6 +190,19 @@ body {
   color: var(--colore-menu-link);
 }
 
+.address .list {
+  display: flex;
+  align-items: center;
+}
+.address {
+  margin-left: auto;
+}
+.mail {
+  display: flex;
+}
+.mail {
+  margin-right: 40px;
+}
 .address .link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -168,19 +228,90 @@ body {
   color: var(--colore-menu-hfa);
 }
 
+/* .page-header > .conteiner {
+  display: flex;
+} */
+
 /*================= SECTION ================== */
 
 /* ===========section Hero============== */
 .hero {
   background: var(--colore-background-section-navy-blu);
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.hero .title-h-one {
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero .button {
+  min-width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* ============section ABOUT================= */
+.about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.about .text {
+  margin-top: 8px;
+}
+.about .list {
+  display: flex;
+  gap: 24px;
+}
 /* ============section WORK ==================*/
+.work {
+  padding-bottom: 120px;
+}
+.work .list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.work .title-h-two {
+  margin-bottom: 72px;
+}
 /* ============section Our Team ==============*/
 .our-team {
   background: var(--colore-background-section-grey);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
+.our-team .list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.our-team .title-h-two {
+  margin-bottom: 72px;
+}
+
+.list .team-item {
+  display: flex;
+  flex-direction: column;
+}
+.team-text {
+  display: flex;
+  width: 264px;
+  background-color: var(--colore-menu-background);
+  padding: 32px;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.title-h-three {
+  margin-bottom: 8px;
+}
 /* =================== FOOTER ================ */
 .accent-footer {
   color: var(--coloro-logo-f);
@@ -188,5 +319,12 @@ body {
 .footer {
   background: var(--colore-footer-background);
   color: var(--colore-footer-text);
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
+.footer-text {
+  max-width: 264px;
+  margin-top: 17.5px;
+}
+
 /* ======section Portfolio nav================= */
