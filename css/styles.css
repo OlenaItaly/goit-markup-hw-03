@@ -160,8 +160,7 @@ body {
   padding-bottom: 24px;
   border-bottom: 1px solid var(--colore-border-header);
 }
-.page-header {
-}
+
 .page-nav {
   display: flex;
   align-items: center;
@@ -357,8 +356,8 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
-.card .link {
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 32px;
+
+.card-item {
+  width: calc((100% - 48px) / 3);
+  border-color: tomato;
 }
