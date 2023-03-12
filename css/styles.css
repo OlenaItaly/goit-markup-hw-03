@@ -358,13 +358,15 @@ body {
 }
 .nav-button .list {
   display: flex;
-
+  box-sizing: border-box;
   margin-top: 96px;
   margin-bottom: 72px;
   gap: 24px;
 }
-.nav .button {
+.button {
   border-color: var(--color-button-border);
+  padding: 12px 24px;
+  border: transparent;
 }
 
 .card-box {
