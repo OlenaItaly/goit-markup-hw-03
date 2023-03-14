@@ -215,15 +215,19 @@ body {
   display: flex;
   align-items: center;
 }
+
 .address {
   margin-left: auto;
 }
+
 .mail {
   display: flex;
 }
+
 .mail {
   margin-right: 40px;
 }
+
 .address .link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -234,6 +238,7 @@ body {
   color: var(--color-text);
   cursor: pointer;
 }
+
 .address {
   font-style: normal;
 }
@@ -249,9 +254,6 @@ body {
   color: var(--colore-menu-hfa);
 }
 
-/* .page-header > .conteiner {
-  display: flex;
-} */
 
 /*================= SECTION ================== */
 
