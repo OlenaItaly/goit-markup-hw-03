@@ -281,9 +281,6 @@ body {
   padding-bottom: 120px;
 }
 
-.about .text {
-  margin-top: 8px;
-}
 .about .list {
   display: flex;
 
@@ -357,14 +354,11 @@ body {
 
 /* ======section Portfolio nav================= */
 
-.nav .conteiner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 96px;
+.nav {
   padding-bottom: 120px;
+  padding-top: 96px;
 }
-.nav-button .list {
+.button-nav {
   display: flex;
   justify-content: center;
   align-items: center;
